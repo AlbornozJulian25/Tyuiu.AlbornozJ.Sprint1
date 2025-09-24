@@ -7,7 +7,7 @@ namespace Tyuiu.AlbornozJ.Sprint1.Task0.V17.Lib
     {
         public double Calculate()
         {
-            return 9 / 3 * 2 + 12 / 4 / 3 - 2;
+            return (9 / 3) * 2 + (12 / 4) / 3 - 2;
         }
     }
 }
