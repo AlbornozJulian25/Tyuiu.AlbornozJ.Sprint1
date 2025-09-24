@@ -4,7 +4,7 @@ using Tyuiu.AlbornozJ.Sprint1.Task0.V0.Lib;
 //Написать программу, которая вычисляет 10 / (2 + 3) и печатает результат на экране.
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 Console.WriteLine("Hello, World!");
-DataService ds  = new DataService();
+DataService ds = new DataService();
 
 Console.Title = "Спринт #1 | Выполнил: Альборноз Г. Х. Х. | ИИПб-25-1";
 //Длинна строки 75 символов
