@@ -38,4 +38,5 @@ Console.WriteLine("*************************************************************
 
 //Метод Calculate находится в библиотеке Tyuiu.AlbornozJ.Sprint1.Task1.V0.Lib
 //в классе DataService
+Console.WriteLine(ds.Calculate(x, y));
 Console.ReadLine();
