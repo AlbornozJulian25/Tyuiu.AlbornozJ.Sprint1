@@ -11,10 +11,10 @@ namespace Tyuiu.AlbornozJ.Sprint1.Task1.V4.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 1.0;
+            double x = 2.0;
             double y = 2.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(1.5, res);
+            Assert.AreEqual(4, res);
         }
     }
 }
