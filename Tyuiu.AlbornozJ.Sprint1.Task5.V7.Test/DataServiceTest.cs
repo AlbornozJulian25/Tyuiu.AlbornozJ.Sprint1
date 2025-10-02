@@ -10,10 +10,10 @@ namespace Tyuiu.AlbornozJ.Sprint1.Task5.V7.Test
         [TestMethod]
         public void ValidExpression()
         {
-            double f = 180;
+            double f = 540;
             DataService ds = new DataService();
             int res = ds.AngleToHoursMinutes(f);
-            int wait = 6;
+            int wait = 18;
             Assert.AreEqual(wait, res);
         }
     }
